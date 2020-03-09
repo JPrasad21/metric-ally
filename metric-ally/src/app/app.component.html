@@ -1,0 +1,37 @@
+<div>
+  <mat-toolbar>
+    <div fxShow="true" fxHide.gt-sm="true">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+
+    <a mat-button class="companyName" routerLink="/">
+      <span>Metric-Ally</span>
+    </a>
+    <span class="spacer"></span>
+    <div fxShow="true" fxHide.lt-md="true" class="navListWrapper">
+      <a mat-button routerLink="/" class="navItem">About</a>
+      <a mat-button routerLink="/" class="navItem">How it works</a>
+      <a mat-button routerLink="/" class="navItem">Individuals</a>
+      <a mat-button routerLink="/" class="navItem">Businesses</a>
+      <a mat-button routerLink="/" class="navItem contact_us">Contact us</a>
+    </div>
+
+  </mat-toolbar>
+  <mat-sidenav-container fxFlexFill >
+
+    <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true">
+      <div fxLayout="column">
+        <a mat-button routerLink="/" class="navItem" (click)="sidenav.toggle()">About</a>
+        <a mat-button routerLink="/" class="navItem" (click)="sidenav.toggle()">How it works</a>
+        <a mat-button routerLink="/" class="navItem" (click)="sidenav.toggle()">Individuals</a>
+        <a mat-button routerLink="/" class="navItem" (click)="sidenav.toggle()">Businesses</a>
+        <a mat-button routerLink="/" class="navItem contact_us" (click)="sidenav.toggle()">Contact us</a>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
