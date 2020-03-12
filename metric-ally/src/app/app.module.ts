@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {
-  MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule
+  MatIconModule, MatButtonModule, MatSidenavModule, MatToolbarModule, MatInputModule
 } from '@angular/material';
 import { HomeComponent } from './home/home.component';
 @NgModule({
@@ -21,6 +21,7 @@ import { HomeComponent } from './home/home.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
+    MatInputModule,
     MatButtonModule,
     MatSidenavModule,
     FormsModule,
