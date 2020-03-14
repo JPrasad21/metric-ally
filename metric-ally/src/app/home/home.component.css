@@ -1,5 +1,6 @@
 .business_wrapper {
-  padding: 7vh 10vh 7vh 7vh;
+  padding: 7vh 7vh 7vh 10vh;
+  background: #fff;
 }
 .business_wrapper_subtitle {
   color: #E69A2F;
@@ -9,21 +10,25 @@
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 32px;
   font-weight: 500;
+  margin: 16px 0px;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 72px;
+  margin-top: 0px;
 }
 
 p{
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 45px;
+  color: #B2BBC6;
+  margin: 0px;
 }
 .inputField {
-  font-size: 16px;
+  font-size: 24px;
   color: #B2BBC6;
   letter-spacing: -0.04px;
   text-align: left;
@@ -44,10 +49,10 @@ p{
   justify-content: space-between;
   margin: 30px 0px;
 }
-.submitBtn {
+.submitBtn_orange {
   background: #E69A2F;
   border-radius: 47px;
-  font-size: 16px;
+  font-size: 24px;
   color: #FFFFFF;
   letter-spacing: -0.05px;
   text-align: center;
@@ -55,6 +60,7 @@ p{
   height: 80px;
   width: 70%;
   min-width: 200px;
+  max-width: 250px;
 }
 
 .playBtn {
@@ -72,13 +78,17 @@ p{
 .individuals_wrapper {
   background-color: #7E2E7A;
   color: #FFFFFF;
-  padding: 7vh 10vh 7vh 7vh;
+  padding: 7vh 7vh 7vh 10vh;
 }
-
+.individuals_wrapper_text {
+  margin-bottom: 40px;
+  line-height: 45px;
+  color: #B2BBC6;
+}
 .submitBtn2 {
   background: #FFF;
   border-radius: 47px;
-  font-size: 16px;
+  font-size: 24px;
   color: #7E2E7A;
   letter-spacing: -0.05px;
   text-align: center;
@@ -86,8 +96,21 @@ p{
   height: 80px;
   width: 70%;
   min-width: 200px;
+  max-width: 250px;
 }
-
+.submitBtn_purple {
+  background: #7E2E7A;
+  border-radius: 47px;
+  font-size: 24px;
+  color: #FFF;
+  letter-spacing: -0.05px;
+  text-align: center;
+  line-height: 26px;
+  height: 80px;
+  width: 70%;
+  min-width: 200px;
+  max-width: 250px;
+}
 .playBtn2 {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 47px;
@@ -98,4 +121,94 @@ p{
   align-items: center;
   color: #FFF;
   margin-left: 10px;
+}
+
+.about_wrapper {
+  padding: 7vh 7vh 7vh 10vh;
+  background-color:  #F9FAFB;
+}
+.about_padding {
+  padding: 0vh 5vh;
+}
+.purple {
+  color: #7E2E7A;
+}
+
+.purple-bg {
+  background-color: #7E2E7A;
+}
+
+.service_wrapper {
+  padding: 0vh 10vh 7vh 15vh;
+  flex-wrap: wrap;
+}
+
+
+.service_box {
+  border: 2px solid #E4E8EB;
+  border-radius: 6.98px;
+  margin: 10px;
+  padding: 30px 20px 10px 30px;
+}
+
+.service_title {
+  font-weight: bold;
+  margin: 10px 0px;
+  width: 80%;
+}
+
+.learn_more {
+  background-image: url('../../assets/images/Group 29.png');
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.f-w {
+  flex-wrap: wrap;
+}
+
+.team_details_wrapper {
+  background-color:  #F9FAFB;
+  padding: 7vh 0vh 0vh 10vh;
+}
+.team_details {
+  padding: 0vh 7vh 0vh 5vh;
+}
+
+.team_img {
+  padding: 5vh 5vh 5vh 7vh;
+}
+.team_details_text {
+  padding: 3vh;
+  border-left: 5px solid #E4E8EB;
+  margin-bottom: 30px;
+}
+.footer {
+  background-color: #301A38;
+}
+.white {
+  color : #fff;
+}
+.orange {
+  color: #E69A2F;
+}
+.black {
+  color: #000;
+}
+.business_details_wrapper {
+  padding: 7vh 0vh 7vh 10vh;
+}
+.biz_details {
+  padding: 0vh 2vh 0vh 5vh;
+}
+
+.biz_stats {
+  padding: 5vh 0vh;
+}
+
+.biz_val {
+  margin: 0px;
 }
