@@ -193,6 +193,7 @@ p{
 
 .biz_stats {
   padding: 5vh 0vh;
+  flex-wrap:nowrap;
 }
 
 .biz_val {
@@ -269,12 +270,10 @@ p{
 
   .biz_stats {
     padding: 5vh 0vh;
+    flex-wrap: wrap;
   }
   .trust_wrapper {
     padding: 7vh 3vh 7vh 5vh;
-  }
-  .brandIcons {
-    width: 60px !important;
   }
   .footer {
     padding: 0vh 3vh;
