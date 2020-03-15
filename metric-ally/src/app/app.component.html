@@ -6,16 +6,16 @@
       </button>
     </div>
 
-    <a mat-button class="companyName" routerLink="/">
+    <a  class="companyName" routerLink="/">
       <span>Metric-Ally</span>
     </a>
     <span class="spacer"></span>
     <div fxShow="true" fxHide.lt-md="true" class="navListWrapper">
-      <a mat-button routerLink="/" class="navItem">About</a>
-      <a mat-button routerLink="/" class="navItem">How it works</a>
-      <a mat-button routerLink="/" class="navItem">Individuals</a>
-      <a mat-button routerLink="/" class="navItem">Businesses</a>
-      <a mat-button routerLink="/" class="navItem contact_us">Contact us</a>
+      <p  routerLink="/" class="navItem">About</p>
+      <p  routerLink="/" class="navItem">How it works</p>
+      <p  routerLink="/" class="navItem">Individuals</p>
+      <p  routerLink="/" class="navItem">Businesses</p>
+      <p  routerLink="/" class="contact_us">Contact us</p>
     </div>
 
   </mat-toolbar>
@@ -23,11 +23,11 @@
 
     <mat-sidenav color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true">
       <div fxLayout="column">
-        <a mat-button routerLink="/" class="navItem" (click)="sidenav.toggle()">About</a>
-        <a mat-button routerLink="/" class="navItem" (click)="sidenav.toggle()">How it works</a>
-        <a mat-button routerLink="/" class="navItem" (click)="sidenav.toggle()">Individuals</a>
-        <a mat-button routerLink="/" class="navItem" (click)="sidenav.toggle()">Businesses</a>
-        <a mat-button routerLink="/" class="navItem contact_us" (click)="sidenav.toggle()">Contact us</a>
+        <p  routerLink="/" class="navItem" (click)="sidenav.toggle()">About</p>
+        <p  routerLink="/" class="navItem" (click)="sidenav.toggle()">How it works</p>
+        <p  routerLink="/" class="navItem" (click)="sidenav.toggle()">Individuals</p>
+        <p  routerLink="/" class="navItem" (click)="sidenav.toggle()">Businesses</p>
+        <p  routerLink="/" class="contact_us" (click)="sidenav.toggle()">Contact us</p>
       </div>
     </mat-sidenav>
     <mat-sidenav-content>

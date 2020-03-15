@@ -7,6 +7,9 @@
   height: 11vh;
   background-color: #fff;
   color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 
@@ -25,6 +28,7 @@ a{
 
 button{
   min-width: min-content;
+  outline: none;
 }
 
 .spacer {
@@ -52,8 +56,12 @@ button{
   align-items: center;
   padding: 0px;
   justify-content: center;
+  border-bottom: 3px solid #FFF;
+  outline: none;
 }
-
+.navItem:active, .navItem:hover{
+  border-bottom: 3px solid #E69A2F;
+}
 .contact_us {
   background:#fff ;
   border-radius: 47px;
@@ -66,4 +74,19 @@ button{
   height: 60px;
   padding: 0px 5vh;
   margin-left: 7vh;
+  font-size: 25px;
+  outline: none;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navItem {
+    font-size: 20px;
+  }
+  .contact_us {
+    font-size: 20px;
+    margin: 0vh 3.5vh;
+    padding: 0px 2vh;
+  }
 }
