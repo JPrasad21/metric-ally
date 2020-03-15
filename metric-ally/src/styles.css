@@ -2,7 +2,9 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Avenir, Roboto, sans-serif; }
-
+input, textarea {
+  outline: none;
+}
 @font-face {
   font-family: Avenir;
   src: url(assets/font/AvenirLT-Medium.woff) format("opentype");

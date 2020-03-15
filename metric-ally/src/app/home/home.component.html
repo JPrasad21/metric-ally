@@ -81,10 +81,11 @@
       <p style="margin-bottom: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa, dicta distinctio neque dolores aperiam reprehenderit maiores repellat amet doloremque dolorum. </p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nihil maiores! Assumenda rem mollitia adipisci aspernatur.</p>
     </div>
-    <button mat-button class="submitBtn submitBtn_purple" type="submit">Get in touch</button>
+    <button fxHide.xs  mat-button class="submitBtn submitBtn_purple" type="submit">Get in touch</button>
   </div>
   <div fxFlex="50%" fxFlex.sm="100%" fxFlex.md="100%" class="team_img">
       <img src="assets/images/Group 1243.png" alt="team members" style="width: 80%;">
+      <button fxHide.sm fxHide.md fxHide.lg fxHide.xl mat-button class="submitBtn submitBtn_purple" type="submit" style="margin-top: 30px;">Get in touch</button>
   </div>
 </div>
 <div class="business_details_wrapper" fxLayout fxLayout.xs="column" fxLayout.sm="column">
@@ -110,9 +111,9 @@
       <mat-icon style="color: green;">done</mat-icon>
       <p class="black">Benefit long text example sample here 1</p>
     </div>
-    <button mat-button class="submitBtn submitBtn_orange" type="submit" style="margin-top: 30px;max-width: 300px;">Get in touch</button>
+    <button fxHide.xs mat-button class="submitBtn submitBtn_orange" type="submit" style="margin-top: 30px;max-width: 300px;">Get in touch</button>
   </div>
-  <div fxLayout fxLayoutAlign="space-around center" fxFlex="40%" fxFlex.sm="100%" fxFlex.md="100%" class="biz_stats">
+  <div fxLayout fxLayoutAlign="space-around center" fxLayoutAlign.xs="space-around flex-start" fxFlex="40%" fxFlex.sm="100%" fxFlex.md="100%" class="biz_stats f-w">
       <div fxLayout class="f-w" fxLayoutAlign="space-evenly center" fxFlex.xs="40%">
           <div style="text-align: left;margin: 10px 0px;">
             <h2 class="biz_val">8.266</h2>
@@ -133,6 +134,7 @@
           <p>No of people by data</p>
         </div>
     </div>
+    <button fxHide.sm fxHide.md fxHide.lg fxHide.xl mat-button class="submitBtn submitBtn_orange" type="submit" style="margin-top: 30px;max-width: 300px;">Get in touch</button>
   </div>
 </div>
 <div class="team_details_wrapper" fxLayout fxLayout.xs="column" fxLayout.sm="column">
@@ -142,22 +144,23 @@
     <div style="margin-bottom: 80px;">
       <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa, dicta distinctio neque dolores aperiam reprehenderit maiores repellat amet doloremque dolorum. Porro qui inventore repellat corporis reprehenderit a, perferendis dicta?</p>
     </div>
-    <button mat-button class="submitBtn submitBtn_purple" type="submit">Get Hired</button>
+    <button fxHide.xs mat-button class="submitBtn submitBtn_purple" type="submit">Get Hired</button>
   </div>
   <div fxFlex="50%" fxFlex.sm="100%" fxFlex.md="100%" class="team_img">
-      <img src="assets/images/Group 30.png" alt="team members" style="width: 100%;">
+    <img src="assets/images/Group 30.png" alt="team members" style="width: 100%;">
+    <button fxHide.sm fxHide.md fxHide.lg fxHide.xl mat-button class="submitBtn submitBtn_purple" type="submit" style="margin-top: 30px;">Get Hired</button>
   </div>
 </div>
 <div class="trust_wrapper">
   <p>They trust us:</p>
-  <div style="margin-top: 60px;overflow: auto;" fxLayout fxLayoutAlign="space-between center" fxLayoutGap.xs="20px" fxLayoutGap.sm="20px">
-    <img src="https://source.unsplash.com/collection/190727/70x70" alt="disney" style="border-radius: 50%;">
-    <img src="https://source.unsplash.com/collection/190728/70x70" alt="google"style="border-radius: 50%;">
-    <img src="https://source.unsplash.com/collection/190725/70x70" alt="apple"style="border-radius: 50%;">
-    <img src="https://source.unsplash.com/collection/190726/70x70" alt="microsoft"style="border-radius: 50%;">
-    <img src="https://source.unsplash.com/collection/190727/70x70" alt="facebook"style="border-radius: 50%;">
-    <img src="https://source.unsplash.com/collection/190728/70x70" alt="twitter"style="border-radius: 50%;">
-    <img src="https://source.unsplash.com/collection/190725/70x70" alt="youtube"style="border-radius: 50%;">
+  <div style="margin-top: 60px;overflow: auto;" fxLayout fxLayoutAlign="space-between center" fxLayoutGap.sm="20px">
+    <img src="assets/images/apple.svg" alt="disney" class="brandIcons">
+    <img src="assets/images/apple.svg" alt="google" class="brandIcons">
+    <img src="assets/images/apple.svg" alt="apple" class="brandIcons">
+    <img src="assets/images/apple.svg" alt="microsoft" class="brandIcons">
+    <img src="assets/images/apple.svg" alt="facebook" class="brandIcons">
+    <img src="assets/images/apple.svg" alt="twitter" class="brandIcons">
+    <img src="assets/images/apple.svg" alt="youtube" class="brandIcons">
   </div>
 </div>
 <div fxLayout="column" fxLayoutAlign="space-evenly center" style="height: 350px;" class="footer">
@@ -166,7 +169,7 @@
         <p class="white">How it works</p>
         <p class="white">Contact us</p>
     </div>
-    <div fxLayout fxLayoutAlign="space-between center" fxLayoutGap="30px">
+    <div fxLayout fxLayoutAlign="space-between center" fxLayoutGap="30px" fxLayoutGap.xs="10px">
       <img src="assets/images/FB.png" alt="facebook">
       <img src="assets/images/TW.png" alt="twitter">
       <img src="assets/images/IN.png" alt="linkedIn">
